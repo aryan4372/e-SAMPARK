@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.e_sampark.SignUpActivity"
+    >
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    >
+
+    <EditText
+        android:id="@+id/mPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:hint="Enter Your Phone Number"
+        android:inputType="phone"
+        android:layout_alignParentTop="true" />
+
+    <EditText
+        android:id="@+id/mCodeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Enter OTP Here"
+        android:inputType="number"
+        android:visibility="invisible"
+        android:layout_below="@+id/mPhoneNumber" />
+
+    <Button
+        android:id="@+id/mButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="otp"
+        android:text="SEND OTP "
+        android:layout_below="@+id/error"
+        android:layout_marginTop="63dp" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mCodeText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:background="@android:color/background_light"
+        android:text="Login Failed"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        tools:text="Login Failed" />
+
+    <Button
+        android:id="@+id/official"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mButton"
+        android:layout_marginTop="77dp"
+        android:background="@android:color/background_light"
+        android:onClick="gov"
+        android:text="Government Official's"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:textSize="20dp" />
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.e_sampark.FileComplain">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="31dp"
+        android:text="Choose One Sector"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold|italic" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginTop="70dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/radio_health"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Health Sector"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/radio_education"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Education Sector"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/radio_security"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Security Sector"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:text="Enter Your Message Here"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textStyle="bold|italic"
+        android:id="@+id/textView" />
+
+    <Button
+        android:id="@+id/mButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="send"
+        android:text="Send" />
+
+    <EditText
+        android:id="@+id/complain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:elevation="1dp"
+        android:hint="Maximum 200 Characters"
+        android:maxLength="200" />
+
+</RelativeLayout>

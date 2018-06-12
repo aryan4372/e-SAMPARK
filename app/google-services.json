@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "328097417779",
+    "firebase_url": "https://e-sampark-9b715.firebaseio.com",
+    "project_id": "e-sampark-9b715",
+    "storage_bucket": "e-sampark-9b715.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328097417779:android:15d7b8c0965b1d78",
+        "android_client_info": {
+          "package_name": "com.example.user.e_sampark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328097417779-k1ic5hf2b29vr6t62cc7j78esesmfe73.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.e_sampark",
+            "certificate_hash": "94d1a7c885895b38319b70d127ee9f6cd43cc953"
+          }
+        },
+        {
+          "client_id": "328097417779-eefnhvqrpgsi9kcbfkq5o969ar097799.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtbYgyM_nvYE0gwdtSNA1LGSS0w5XsBqM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328097417779-eefnhvqrpgsi9kcbfkq5o969ar097799.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

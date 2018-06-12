@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.e_sampark.HealthFragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/your_initial_complain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Click Here To See Full Conversation"
+        android:textSize="14sp" />
+
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Close This Complain"
+        android:textSize="14sp" />
+
+</FrameLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.e_sampark.Complaints">
+
+    <TextView
+        android:id="@+id/already"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="You Already Have A Complain Filed,Either Continue In That Thread Or Else Mark That As Resolved And Start A New Thread"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        android:visibility="invisible"
+         />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="153dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="newComplain"
+        android:text="File A New Complain" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="check"
+        android:text="Check Your Previous Complains" />
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:text="Complete Your Account Details Before Filing a Complain"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        android:visibility="invisible" />
+</RelativeLayout>
